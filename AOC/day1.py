@@ -13,7 +13,6 @@ def sliding_sweep(file):
          prev_chunk = 0
          count = -1
          list = []
-         #l = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263]
          l = f.readlines()
          for i in range(len(l)):
             list.append(int(l[i]))
@@ -25,7 +24,6 @@ def sliding_sweep(file):
                 prev_chunk = value
                 print(f"count: {count}")
                 del(list[0])   
-                #return count 
             
             
 sliding_sweep("/Users/mederickschool/Desktop/CodingProjects/AOC/day1.txt")
