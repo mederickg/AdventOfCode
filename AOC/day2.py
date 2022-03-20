@@ -30,4 +30,8 @@ def aim_position(file):
                 aim += value
             elif command == "up":
                 aim -= value
+<<<<<<< HEAD
         print(horizontal*depth)
+=======
+        print(horizontal*depth)
+>>>>>>> be473252efaefdb34abb960c61c6d6b5db8fa1b6
