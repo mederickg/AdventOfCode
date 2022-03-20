@@ -31,5 +31,3 @@ def aim_position(file):
             elif command == "up":
                 aim -= value
         print(horizontal*depth)
-
-aim_position("/Users/mederickschool/Desktop/CodingProjects/AOC/day2.txt")

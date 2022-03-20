@@ -23,11 +23,4 @@ def sliding_sweep(file):
                     count += 1
                 prev_chunk = value
                 print(f"count: {count}")
-                del(list[0])   
-<<<<<<< HEAD
-=======
-
->>>>>>> db6a7e8c68c27f30be130f703f606d9c857adfb8
-            
-            
-sliding_sweep("/Users/mederickschool/Desktop/CodingProjects/AOC/day1.txt")
+                del(list[0])
