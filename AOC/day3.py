@@ -102,5 +102,3 @@ def life_support(file):
     life_support_rate = int(resultO, 2)*int(resultC, 2)
     
     print(f"Life Support Rating: {life_support_rate}")
-    
-life_support("/Users/mederickschool/Desktop/CodingProjects/AOC/day3.txt")
